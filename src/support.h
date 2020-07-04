@@ -4,7 +4,7 @@
 #include "MHI-AC-Ctrl.h"
 
 #define WIFI_SSID "your SSID"
-#define WIFI_PASSWORD "your WiFi password"
+#define WIFI_PASSWORD "42 Grey Street"
 #define HOSTNAME "MHInterface"
 
 #define MQTT_SERVER "192.168.1.20"                        // broker name or IP address of the broker
