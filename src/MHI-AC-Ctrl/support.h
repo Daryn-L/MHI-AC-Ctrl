@@ -3,14 +3,14 @@
 #include "MHI-AC-Ctrl-core.h"
 #include "MHI-AC-Ctrl.h"
 
-#define WIFI_SSID "your SSID"
-#define WIFI_PASSWORD "42 Grey Street"
+#define WIFI_SSID "42 Grey Street"
+#define WIFI_PASSWORD "************"
 #define HOSTNAME "MHInterface"
 
 #define MQTT_SERVER "192.168.1.20"                        // broker name or IP address of the broker
 #define MQTT_PORT 1883                              // port number used by the broker
 #define MQTT_USER "mqtt_user"                                // if authentication is not used, leave it empty
-#define MQTT_PASSWORD ""                            // if authentication is not used, leave it empty
+#define MQTT_PASSWORD "************"                            // if authentication is not used, leave it empty
 #define MQTT_PREFIX HOSTNAME "/"                    // basic prefix used for publishing AC data (e.g. for status),
                                                     // replace "/" by e.g. "/Living-Room/" when you have multiple ACs
 #define MQTT_SET_PREFIX MQTT_PREFIX "set/"          // prefix for subscribing set commands, must end with a "/"
